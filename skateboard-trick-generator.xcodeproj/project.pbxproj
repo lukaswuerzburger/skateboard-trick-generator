@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8069CBF827A5D9CE002C8B4A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8069CBF727A5D9CE002C8B4A /* main.swift */; };
+		8069CC1327A5DA0B002C8B4A /* TrickFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8069CBFF27A5DA0B002C8B4A /* TrickFactory.swift */; };
+		8069CC1427A5DA0B002C8B4A /* TrickGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8069CC0027A5DA0B002C8B4A /* TrickGenerator.swift */; };
+		8069CC1527A5DA0B002C8B4A /* TricksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8069CC0127A5DA0B002C8B4A /* TricksViewModel.swift */; };
+		8069CC1627A5DA0B002C8B4A /* SynonymFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8069CC0327A5DA0B002C8B4A /* SynonymFinder.swift */; };
+		8069CC1727A5DA0B002C8B4A /* NameBuilderFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8069CC0427A5DA0B002C8B4A /* NameBuilderFactory.swift */; };
+		8069CC1827A5DA0B002C8B4A /* TrickNameComponentsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8069CC0527A5DA0B002C8B4A /* TrickNameComponentsBuilder.swift */; };
+		8069CC1927A5DA0B002C8B4A /* NameBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8069CC0627A5DA0B002C8B4A /* NameBuilder.swift */; };
+		8069CC1A27A5DA0B002C8B4A /* NameComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8069CC0727A5DA0B002C8B4A /* NameComponent.swift */; };
+		8069CC1B27A5DA0B002C8B4A /* Trick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8069CC0927A5DA0B002C8B4A /* Trick.swift */; };
+		8069CC1C27A5DA0B002C8B4A /* Spin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8069CC0A27A5DA0B002C8B4A /* Spin.swift */; };
+		8069CC1D27A5DA0B002C8B4A /* Flip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8069CC0B27A5DA0B002C8B4A /* Flip.swift */; };
+		8069CC1E27A5DA0B002C8B4A /* ShoveIt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8069CC0C27A5DA0B002C8B4A /* ShoveIt.swift */; };
+		8069CC2027A5DA0B002C8B4A /* Stance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8069CC0E27A5DA0B002C8B4A /* Stance.swift */; };
+		8069CC2127A5DA0B002C8B4A /* Degree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8069CC0F27A5DA0B002C8B4A /* Degree.swift */; };
+		8069CC2227A5DA0B002C8B4A /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8069CC1027A5DA0B002C8B4A /* Direction.swift */; };
+		8069CC2327A5DA0B002C8B4A /* TrickRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8069CC1127A5DA0B002C8B4A /* TrickRecord.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8069CBF227A5D9CE002C8B4A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8069CBF427A5D9CE002C8B4A /* skateboard-trick-generator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "skateboard-trick-generator"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8069CBF727A5D9CE002C8B4A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8069CBFF27A5DA0B002C8B4A /* TrickFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrickFactory.swift; sourceTree = "<group>"; };
+		8069CC0027A5DA0B002C8B4A /* TrickGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrickGenerator.swift; sourceTree = "<group>"; };
+		8069CC0127A5DA0B002C8B4A /* TricksViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TricksViewModel.swift; sourceTree = "<group>"; };
+		8069CC0327A5DA0B002C8B4A /* SynonymFinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SynonymFinder.swift; sourceTree = "<group>"; };
+		8069CC0427A5DA0B002C8B4A /* NameBuilderFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameBuilderFactory.swift; sourceTree = "<group>"; };
+		8069CC0527A5DA0B002C8B4A /* TrickNameComponentsBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrickNameComponentsBuilder.swift; sourceTree = "<group>"; };
+		8069CC0627A5DA0B002C8B4A /* NameBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameBuilder.swift; sourceTree = "<group>"; };
+		8069CC0727A5DA0B002C8B4A /* NameComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameComponent.swift; sourceTree = "<group>"; };
+		8069CC0927A5DA0B002C8B4A /* Trick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trick.swift; sourceTree = "<group>"; };
+		8069CC0A27A5DA0B002C8B4A /* Spin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spin.swift; sourceTree = "<group>"; };
+		8069CC0B27A5DA0B002C8B4A /* Flip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flip.swift; sourceTree = "<group>"; };
+		8069CC0C27A5DA0B002C8B4A /* ShoveIt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoveIt.swift; sourceTree = "<group>"; };
+		8069CC0E27A5DA0B002C8B4A /* Stance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stance.swift; sourceTree = "<group>"; };
+		8069CC0F27A5DA0B002C8B4A /* Degree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Degree.swift; sourceTree = "<group>"; };
+		8069CC1027A5DA0B002C8B4A /* Direction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+		8069CC1127A5DA0B002C8B4A /* TrickRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrickRecord.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8069CBF127A5D9CE002C8B4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8069CBEB27A5D9CE002C8B4A = {
+			isa = PBXGroup;
+			children = (
+				8069CBF627A5D9CE002C8B4A /* skateboard-trick-generator */,
+				8069CBF527A5D9CE002C8B4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8069CBF527A5D9CE002C8B4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8069CBF427A5D9CE002C8B4A /* skateboard-trick-generator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8069CBF627A5D9CE002C8B4A /* skateboard-trick-generator */ = {
+			isa = PBXGroup;
+			children = (
+				8069CBFE27A5DA0B002C8B4A /* Trick Generator */,
+				8069CBF727A5D9CE002C8B4A /* main.swift */,
+			);
+			path = "skateboard-trick-generator";
+			sourceTree = "<group>";
+		};
+		8069CBFE27A5DA0B002C8B4A /* Trick Generator */ = {
+			isa = PBXGroup;
+			children = (
+				8069CC0227A5DA0B002C8B4A /* Naming */,
+				8069CC0827A5DA0B002C8B4A /* Trick */,
+				8069CBFF27A5DA0B002C8B4A /* TrickFactory.swift */,
+				8069CC0027A5DA0B002C8B4A /* TrickGenerator.swift */,
+				8069CC0127A5DA0B002C8B4A /* TricksViewModel.swift */,
+				8069CC1127A5DA0B002C8B4A /* TrickRecord.swift */,
+			);
+			path = "Trick Generator";
+			sourceTree = "<group>";
+		};
+		8069CC0227A5DA0B002C8B4A /* Naming */ = {
+			isa = PBXGroup;
+			children = (
+				8069CC0327A5DA0B002C8B4A /* SynonymFinder.swift */,
+				8069CC0427A5DA0B002C8B4A /* NameBuilderFactory.swift */,
+				8069CC0527A5DA0B002C8B4A /* TrickNameComponentsBuilder.swift */,
+				8069CC0627A5DA0B002C8B4A /* NameBuilder.swift */,
+				8069CC0727A5DA0B002C8B4A /* NameComponent.swift */,
+			);
+			path = Naming;
+			sourceTree = "<group>";
+		};
+		8069CC0827A5DA0B002C8B4A /* Trick */ = {
+			isa = PBXGroup;
+			children = (
+				8069CC0927A5DA0B002C8B4A /* Trick.swift */,
+				8069CC0A27A5DA0B002C8B4A /* Spin.swift */,
+				8069CC0B27A5DA0B002C8B4A /* Flip.swift */,
+				8069CC0C27A5DA0B002C8B4A /* ShoveIt.swift */,
+				8069CC0E27A5DA0B002C8B4A /* Stance.swift */,
+				8069CC0F27A5DA0B002C8B4A /* Degree.swift */,
+				8069CC1027A5DA0B002C8B4A /* Direction.swift */,
+			);
+			path = Trick;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8069CBF327A5D9CE002C8B4A /* skateboard-trick-generator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8069CBFB27A5D9CE002C8B4A /* Build configuration list for PBXNativeTarget "skateboard-trick-generator" */;
+			buildPhases = (
+				8069CBF027A5D9CE002C8B4A /* Sources */,
+				8069CBF127A5D9CE002C8B4A /* Frameworks */,
+				8069CBF227A5D9CE002C8B4A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "skateboard-trick-generator";
+			productName = "skateboard-trick-generator";
+			productReference = 8069CBF427A5D9CE002C8B4A /* skateboard-trick-generator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8069CBEC27A5D9CE002C8B4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					8069CBF327A5D9CE002C8B4A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 8069CBEF27A5D9CE002C8B4A /* Build configuration list for PBXProject "skateboard-trick-generator" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8069CBEB27A5D9CE002C8B4A;
+			productRefGroup = 8069CBF527A5D9CE002C8B4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8069CBF327A5D9CE002C8B4A /* skateboard-trick-generator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8069CBF027A5D9CE002C8B4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8069CC1827A5DA0B002C8B4A /* TrickNameComponentsBuilder.swift in Sources */,
+				8069CC1E27A5DA0B002C8B4A /* ShoveIt.swift in Sources */,
+				8069CC1527A5DA0B002C8B4A /* TricksViewModel.swift in Sources */,
+				8069CC2127A5DA0B002C8B4A /* Degree.swift in Sources */,
+				8069CC1327A5DA0B002C8B4A /* TrickFactory.swift in Sources */,
+				8069CC1A27A5DA0B002C8B4A /* NameComponent.swift in Sources */,
+				8069CC1D27A5DA0B002C8B4A /* Flip.swift in Sources */,
+				8069CC2227A5DA0B002C8B4A /* Direction.swift in Sources */,
+				8069CC2327A5DA0B002C8B4A /* TrickRecord.swift in Sources */,
+				8069CC2027A5DA0B002C8B4A /* Stance.swift in Sources */,
+				8069CBF827A5D9CE002C8B4A /* main.swift in Sources */,
+				8069CC1C27A5DA0B002C8B4A /* Spin.swift in Sources */,
+				8069CC1927A5DA0B002C8B4A /* NameBuilder.swift in Sources */,
+				8069CC1627A5DA0B002C8B4A /* SynonymFinder.swift in Sources */,
+				8069CC1427A5DA0B002C8B4A /* TrickGenerator.swift in Sources */,
+				8069CC1727A5DA0B002C8B4A /* NameBuilderFactory.swift in Sources */,
+				8069CC1B27A5DA0B002C8B4A /* Trick.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8069CBF927A5D9CE002C8B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8069CBFA27A5D9CE002C8B4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8069CBFC27A5D9CE002C8B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8069CBFD27A5D9CE002C8B4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8069CBEF27A5D9CE002C8B4A /* Build configuration list for PBXProject "skateboard-trick-generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8069CBF927A5D9CE002C8B4A /* Debug */,
+				8069CBFA27A5D9CE002C8B4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8069CBFB27A5D9CE002C8B4A /* Build configuration list for PBXNativeTarget "skateboard-trick-generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8069CBFC27A5D9CE002C8B4A /* Debug */,
+				8069CBFD27A5D9CE002C8B4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8069CBEC27A5D9CE002C8B4A /* Project object */;
+}
